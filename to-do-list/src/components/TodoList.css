@@ -1,0 +1,14 @@
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.TodoList > input {
+  border: none;
+  border-bottom: 1px solid rgb(220 220 220);
+}
+
+.TodoList > input:focus {
+  border-bottom: 1px solid rgb(244 81 30);
+}
