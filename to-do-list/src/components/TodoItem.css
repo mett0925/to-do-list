@@ -19,9 +19,13 @@
   font-size: 14px;
   color: gray;
 }
+.TodoItem input.content {
+  min-width: 0;
+}
 .btns-wrap {
   display: flex;
   gap: 10px;
+  flex-shrink: 0;
 }
 .btns-wrap button {
   cursor: pointer;
@@ -30,6 +34,10 @@
   border-radius: 5px;
   padding: 5px 10px;
   color: #fff;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .updateBtn {
   background-color: rgb(0, 137, 123);
